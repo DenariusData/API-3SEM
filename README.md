@@ -67,11 +67,15 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 
 ## 🛠 Tecnologias
 
-- ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg) **Java Web** para o backend.  
-- ![MySQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg) **MySQL** para o banco de dados relacional.  
-- ![Spring Boot](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg) **Spring Boot** para estruturação da API.  
-- ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) **React** para desenvolvimento do frontend.  
-- ![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg) **Docker** para facilitar a implantação.  
-- ![Swagger](https://static-00.iconduck.com/assets.00/swagger-icon-512x512-ji7nlsay.png) **Swagger** para documentação da API.  
+## 🛠 Tecnologias
+
+Foram utilizadas as seguintes tecnologias:
+
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-%230087C6.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black)
 
 O projeto está em desenvolvimento e contará com entregas contínuas conforme o progresso da equipe.
