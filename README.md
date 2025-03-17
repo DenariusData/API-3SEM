@@ -63,7 +63,7 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 - Facilidade de uso
 - Transparência na gestão de informações
 
-## 📸 Nossa Equipe
+## 📸 Conheça nossa equipe:
 
 | Nome | Função | LinkedIn | GitHub |
 |------|--------|----------|--------|
