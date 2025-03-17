@@ -67,10 +67,6 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 
 ## 🛠 Tecnologias
 
-## 🛠 Tecnologias
-
-Foram utilizadas as seguintes tecnologias:
-
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
