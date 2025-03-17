@@ -67,13 +67,11 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 
 ## 🛠 Tecnologias
 
-- **Java Web** para o backend.
-- **MySQL** para o banco de dados relacional.
-- **Spring Boot** para estruturação da API.
-- **React** para desenvolvimento do frontend.
-- **Docker** para facilitar a implantação.
-- **Swagger** para documentação da API.
-
----
+- ![Java](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg) **Java Web** para o backend.  
+- ![MySQL](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg) **MySQL** para o banco de dados relacional.  
+- ![Spring Boot](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg) **Spring Boot** para estruturação da API.  
+- ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) **React** para desenvolvimento do frontend.  
+- ![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg) **Docker** para facilitar a implantação.  
+- ![Swagger](https://static-00.iconduck.com/assets.00/swagger-icon-512x512-ji7nlsay.png) **Swagger** para documentação da API.  
 
 O projeto está em desenvolvimento e contará com entregas contínuas conforme o progresso da equipe.
