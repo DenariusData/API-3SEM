@@ -63,7 +63,15 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 - Facilidade de uso
 - Transparência na gestão de informações
 
-## 👨‍💻 Equipe
+## 📸 Nossa Equipe
+
+| Nome | Função | LinkedIn | GitHub |
+|------|--------|----------|--------|
+| **Rafael Slivka** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-slivka-07753326a/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaslivka) |
+| **Beatriz Santos** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beatriz-santos-0b6773220/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BeatrizSantos00) |
+| **Gleialison Rezende** | SM | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gleialison-rezende-835453b0/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Glei-Rezende) |
+| **Caio Osório** | PO | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caio-o-a67224200/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/User-Business) |
+| **Tiago Bernardo** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiagobernardosantos/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TiagoBernardoSantos) |
 
 ## 🛠 Tecnologias
 
