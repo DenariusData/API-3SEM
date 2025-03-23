@@ -1,6 +1,6 @@
-[submodule "back"]
-    path = back
+[submodule "Backend DenariusData"]
+    path = Backend DenariusData
     url = https://github.com/DenariusData/DenariusData-Back
-[submodule "front"]
-    path = front
+[submodule "Frontend DenariusData"]
+    path = Frontend DenariusData
     url = https://github.com/DenariusData/DenariusData-Front
