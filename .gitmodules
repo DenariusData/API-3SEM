@@ -4,3 +4,6 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/DenariusData/DenariusData-Front.git
+[submodule "Docs"]
+	path = Docs
+	url = https://github.com/DenariusData/DenariusData-docs.git
