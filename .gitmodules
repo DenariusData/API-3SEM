@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/DenariusData/DenariusData-Back.git
+	branch = Sprint-2
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/DenariusData/DenariusData-Front.git
+	branch = Sprint-2
+[submodule "docs"]
+	path = docs
+	url = https://github.com/DenariusData/DenariusData-docs.git
+	branch = Sprint-2
