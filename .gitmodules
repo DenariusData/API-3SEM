@@ -1,9 +1,0 @@
-[submodule "Backend"]
-	path = Backend
-	url = https://github.com/DenariusData/DenariusData-Back/tree/main
-[submodule "Frontend"]
-	path = Frontend
-	url = https://github.com/DenariusData/DenariusData-Front
-[submodule "Docs"]
-	path = Docs
-	url = https://github.com/DenariusData/DenariusData-docs
