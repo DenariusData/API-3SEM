@@ -8,11 +8,13 @@
 - ✅ [Requisitos Funcionais](#requisitos-funcionais)
 - ✅ [Requisitos Não Funcionais](#requisitos-nao-funcionais)
 - ✅ [Modelagem do Banco de Dados](#modelagem-do-banco-de-dados)
-- 🎯 [Missão](#missao)
-- 🔭 [Visão](#visao)
-- 💡 [Valores](#valores)
+- 🚀 [Como Executar o Projeto](#como-executar-o-projeto)
+- 🔗 [Links Importantes](#links-importantes)
+- 📝 [Documentação da Sprint](#documentação-da-sprint)
 - 👨‍💻 [Equipe](#equipe)
 - 🛠 [Tecnologias](#tecnologias)
+
+---
 
 ## 📘 Tema e Descricao do Produto
 
@@ -33,7 +35,7 @@ O sistema permitirá:
 - Dashboard interativo com gráficos e opções de filtragem.
 - API para consumo dos dados (opcional).
 
-## ✅ Requisitos Nao Funcionais
+## ✅ Requisitos Não Funcionais
 
 - Interface minimalista e intuitiva.
 - Guia de instalação do sistema.
@@ -48,33 +50,58 @@ A modelagem do banco de dados incluirá:
 - Índices para otimizar buscas.
 - Relacionamentos bem estruturados.
 
-## 🎯 Missao
+---
 
-Oferecer uma solução eficiente e confiável para controle de jornada de trabalho de profissionais terceirizados, facilitando o monitoramento e análise das horas trabalhadas.
+## 🚀 Como Executar o Projeto
 
-## 🔭 Visao
+### Backend (Spring Boot)
 
-Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporcionando automação e precisão na gestão de jornadas de trabalho.
+```bash
+cd backend
+./mvnw spring-boot:run
+```
 
-## 💡 Valores
+> ⚠️ Certifique-se de ter o MySQL rodando e o `application.properties` configurado.
 
-- Eficiência
-- Precisão
-- Facilidade de uso
-- Transparência na gestão de informações
+### Frontend (React)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+> O frontend será iniciado em `http://localhost:5173`
+
+---
+
+## 🔗 Links Importantes
+
+- 🎥 [Demonstração em vídeo do sistema](https://www.youtube.com/watch?v=SEU_VIDEO)
+- 🧠 [Repositório GitHub do produto](https://github.com/User-Business/API-3SEM)
+- 📑 [Documentação da API (Swagger)](http://localhost:8080/swagger-ui.html) — substituir pelo link real
+
+---
+
+## 📝 Documentação da Sprint
+
+- 📄 [Página Sprint 01](docs/sprint01.md)
+- 📌 [Product Backlog](docs/backlog.md)
+
+---
 
 ## 📸 Conheça nossa equipe:
 
 | Nome | Função | LinkedIn | GitHub |
 |------|--------|----------|--------|
-| **Caio Osório** | PO | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caio-o-a67224200/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/User-Business) |
-| **Gleialison Rezende** | SM | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gleialison-rezende-835453b0/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Glei-Rezende) |
-| **Beatriz Santos** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beatriz-santos-0b6773220/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BeatrizSantos00) |
-| **Michel Marques** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-momosemichel-momose-b78a04203) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Michel-Momose) |
-| **Rafael Slivka** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-slivka-07753326a/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaslivka) |
-| **Tiago Bernardo** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiagobernardosantos/) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TiagoBernardoSantos) |
-| **Victor Ryan** | DEV | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-ryan-51738b261) | [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yzvictorr) |
+| **Caio Osório** | PO | [LinkedIn](https://www.linkedin.com/in/caio-o-a67224200/) | [GitHub](https://github.com/User-Business) |
+| **Gleialison Rezende** | SM | [LinkedIn](https://www.linkedin.com/in/gleialison-rezende-835453b0/) | [GitHub](https://github.com/Glei-Rezende) |
+| **Beatriz Santos** | DEV | [LinkedIn](https://www.linkedin.com/in/beatriz-santos-0b6773220/) | [GitHub](https://github.com/BeatrizSantos00) |
+| **Rafael Slivka** | DEV | [LinkedIn](https://www.linkedin.com/in/rafael-lopes-slivka-07753326a/) | [GitHub](https://github.com/rafaslivka) |
+| **Tiago Bernardo** | DEV | [LinkedIn](https://www.linkedin.com/in/tiagobernardosantos/) | [GitHub](https://github.com/TiagoBernardoSantos) |
+| **Victor Ryan** | DEV | [LinkedIn](https://www.linkedin.com/in/victor-ryan-51738b261) | [GitHub](https://github.com/yzvictorr) |
 
+---
 
 ## 🛠 Tecnologias
 
@@ -85,4 +112,6 @@ Ser uma referência no desenvolvimento de sistemas de controle de ponto, proporc
 ![Docker](https://img.shields.io/badge/Docker-%230087C6.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black)
 
-O projeto está em desenvolvimento e contará com entregas contínuas conforme o progresso da equipe.
+---
+
+> O projeto está em desenvolvimento e contará com entregas contínuas conforme o progresso da equipe.
