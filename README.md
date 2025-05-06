@@ -1,7 +1,3 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FFFFFF&height=120&section=header"/>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=50&center=true&vCenter=true&width=1000&lines=Olá,+somos+o+grupo+Denarius+Data!+:%29)](https://git.io/typing.svg) 
-
 # Sistema de Registro de Ponto
 
 - 📘 [Tema e Descrição do Produto](#tema-e-descricao-do-produto)
