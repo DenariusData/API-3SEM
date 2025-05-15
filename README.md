@@ -18,7 +18,7 @@ Conta com um dashboard interativo, que oferece uma visão detalhada de todas as 
 
 > _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
 
-:pushpin: Status do Projeto: **Em Andamento** :heavy_check_mark:
+:pushpin: Status do Projeto: **Em Andamento** ⏱️
 
 ### 🏁 Entregas de Sprints
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (Backend, Frontend e Docs), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
@@ -33,7 +33,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 <details>
    <summary>Administrador</summary>
     <div align="center">
-        <img src="[gif vai aqui]">
+       <img src= "https://github.com/user-attachments/assets/5a9ed636-6a32-4dd1-9c36-a7640e431d00.gif">
     </div>
 </details>
 
