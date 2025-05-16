@@ -1,3 +1,6 @@
+
+![banner altime](https://github.com/user-attachments/assets/cd7c1e07-758d-4f80-8358-d3b2fc26554f)
+
 # Sistema de Registro de Ponto
 
 - 📘 [Tema e Descrição do Produto](#tema-e-descricao-do-produto)
