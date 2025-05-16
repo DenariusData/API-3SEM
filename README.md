@@ -34,10 +34,10 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
 
 <details>
-   <summary>Página de Login</summary>
-   <p align="center">
-      ▶️ <a href="https://github.com/DenariusData/DenariusData-docs/blob/main/tela%20login.mp4">Clique aqui para assistir ao vídeo da tela de login</a>
-   </p>
+   <summary>Administrador</summary>
+   <div align="center">
+      <img src="https://github.com/DenariusData/DenariusData-docs/blob/main/tela%20login%202.gif" alt="Demonstração Tela de Login" />
+   </div>
 </details>
 
 → [Voltar ao topo](#topo)
