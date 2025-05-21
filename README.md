@@ -41,6 +41,8 @@ Além das funcionalidades de cadastro, o sistema permite o registro e acompanham
 
 </details>
 
+➡️ [Voltar ao topo](#topo)
+
 ---
 
 <span id="entregas">
@@ -55,14 +57,15 @@ Para extrair e entender os desejos do cliente, foi construído um **protótipo i
 
 ### 📹 Veja abaixo o resultado final da entrega:
 
-https://github.com/user-attachments/assets/be18e166-2110-4c0b-95a7-65a570d69ac7
+https://github.com/user-attachments/assets/0598242e-1f08-4ce1-af11-03a4dc492cc5
 
-<!-- Substitua o caminho do gif pelo seu arquivo -->
-![Resultado final da entrega](./caminho/para/seu-gif.gif)
-<br>
+➡️ [Voltar ao topo](#topo)
 
 ---
+
 ### ✅ Este protótipo valida a entrega dos requisitos confirmados para a sprint, onde suas descrições podem ser checadas a seguir:
+
+<span id="requisitos">
 
 <details>
 <summary>🔽 Requisitos Confirmados para a Sprint</summary>
@@ -81,6 +84,7 @@ https://github.com/user-attachments/assets/be18e166-2110-4c0b-95a7-65a570d69ac7
 
 </details>
 
+</span>
 
 ➡️ [Voltar ao topo](#topo)
 
@@ -101,6 +105,8 @@ O acompanhamento de atividades, de responsabilidade da **Scrum Master**, se enco
 
 </div>
 
+➡️ [Voltar ao topo](#topo)
+
 ---
 
 <span id="links">
@@ -116,3 +122,5 @@ O acompanhamento de atividades, de responsabilidade da **Scrum Master**, se enco
 <br>
 
 ➡️ [Voltar ao topo](#topo)
+
+</span>
