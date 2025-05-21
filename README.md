@@ -84,11 +84,11 @@ Como parte do planejamento do projeto foram criados wireframes para idealizaçã
 
 > 🔗 **Links gerais**  
 > - Documentação do software: [clique aqui para acessar](#)  
-> - Manual do usuário: [clique aqui para acessar](#)  
+> - Manual do usuário: [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual_Usuario_Registro_Ponto.pdf)  
 > - Links para os repositórios criados:  
->    - **Frontend:** [acessar Denarius-Data-Frontend](#)  
+>    - **Frontend:** [acessar Denarius-Data-Frontend](https://github.com/DenariusData/DenariusData-Front/tree/main)  
 >    - **Backend:**  
->       - **Código:** [acessar Denarius-Data-Backend](#)  
+>       - **Código:** [acessar Denarius-Data-Backend](https://github.com/DenariusData/DenariusData-Back/tree/main)  
 > - Documentações das APIs:  
 >    - **Documentação Endpoint:** [acessar Swagger](#)  
 >    - **Guia de Usuário:** [acessar Guia de usuário](#)
