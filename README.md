@@ -51,6 +51,14 @@ Para extrair e entender os desejos do cliente, foi construído um **protótipo i
 
 ➡️ Acesse o protótipo diretamente pelo [Figma clicando aqui](https://www.figma.com/board/fyhWp4Ji3oQa5PNxootLjf/DenariusData---Sistema-de-Registro-de-Pontos?node-id=0-1&p=f&t=zvkWaiQgHAmyolei-0).
 
+---
+
+### Veja abaixo o resultado final da entrega:
+
+https://github.com/user-attachments/assets/be18e166-2110-4c0b-95a7-65a570d69ac7
+
+<!-- Substitua o caminho do gif pelo seu arquivo -->
+![Resultado final da entrega](./caminho/para/seu-gif.gif)
 <br>
 
 ---
