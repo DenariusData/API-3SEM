@@ -14,9 +14,9 @@
     <a href="#links">🔗 Links úteis</a>
 </p>
 
-O projeto se baseia no desenvolvimento do **Altime**, um sistema web voltado para o cadastro e gestão de empresas, no qual cada empresa pode registrar seus funcionários e gerenciar o controle de ponto de forma prática e eficiente.
+Na 2ª Sprint, o foco principal do desenvolvimento do sistema Altime foi a implementação do controle de ponto, permitindo o registro de entradas e saídas dos funcionários — uma funcionalidade essencial para o propósito da plataforma. Também foi iniciado o desenvolvimento dos dashboards interativos, que apresentam os dados de forma visual e dinâmica, facilitando a análise por parte dos gestores.
 
-Além das funcionalidades de cadastro, o sistema permite o registro e acompanhamento de pontos pelos colaboradores, oferecendo também recursos avançados de visualização de dados por meio de dashboards interativos e tabelas analíticas.
+Além disso, foi criada uma interface de login, garantindo acesso restrito às áreas de gerenciamento. Outras melhorias incluem a possibilidade de edição de dados de funcionários e empresas, a paginação nas listas para melhor navegação e o uso da biblioteca Lombok no backend, otimizando o processo de desenvolvimento.
 
 <span id="objetivos">
 
@@ -37,7 +37,7 @@ Além das funcionalidades de cadastro, o sistema permite o registro e acompanham
 
 ## ✅ Entregas
 
-Para extrair e entender os desejos do cliente, foi construído um **protótipo inicial no Figma**, criando a identidade visual e design do sistema. Esse protótipo foi apresentado para validação com o cliente e, posteriormente, implementado utilizando **React**, integrando as funcionalidades acordadas para a primeira sprint.
+Durante a 2ª Sprint, o protótipo visual previamente aprovado continuou servindo como referência para o desenvolvimento das novas funcionalidades. Com base na identidade visual já estabelecida no Figma, foram implementadas interfaces para o controle de ponto, dashboards interativos e páginas de edição de dados, mantendo a consistência visual e a usabilidade. 
 
 ### 📹 Veja abaixo o resultado final da entrega
 
