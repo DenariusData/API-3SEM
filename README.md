@@ -1,11 +1,10 @@
-
 ![banner altime](https://github.com/user-attachments/assets/3044f087-39e6-417c-9cfe-e89b9c7b251e)
 
 <br id="topo">
 <p align="center">
     <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
+    <a href="#backlogs--user-stories">Backlogs & User Stories</a>  |  
+    <a href="#protótipo--documentação">Protótipo & Documentação</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
     <a href="#equipe">Equipe</a>
 </p>
@@ -45,12 +44,12 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 → [Voltar ao topo](#topo)
 
-<span id="backlogs">
+<span id="backlogs--user-stories">
 
 ## :dart: Backlogs & User Stories
 
 <details>
-<summary>Backlog do Produto</summary>
+<summary>Backlog</summary>
 
 <br>
 
@@ -75,11 +74,9 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 </details>
 
-</div>
-
 → [Voltar ao topo](#topo)
 
-<span id="prototipo">
+<span id="protótipo--documentação">
 
 ## :desktop_computer: Protótipo & Documentação
 
