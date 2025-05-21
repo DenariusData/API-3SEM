@@ -46,31 +46,52 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 <span id="backlogs--user-stories">
 
-## :dart: Backlogs & User Stories
+## :clipboard: Requisitos do Sistema
 
 <details>
-<summary>Backlog</summary>
+<summary>Requisitos Funcionais e Não Funcionais</summary>
 
 <br>
 
-| User Story | Critério de Aceitação | Estimativa em horas | Tarefas | Sprint |
-|------------|----------------------|---------------------|---------|--------|
-| Eu, enquanto usuário do sistema quero cadastrar as empresas e funcionários no sistema para que seja possível realizar o controle do projeto | O sistema deve permitir o cadastro de empresas e funcionários com campos obrigatórios, garantindo a persistência das informações no banco de dados. | 10h | Criar telas de cadastro e validação. | 1 |
-| Eu, enquanto Administrador do sistema quero que tenha um banco de dados que será aonde irá ser armazenado todas as informações do sistema | Deve haver um banco de dados estruturado, seguro e otimizado para armazenar todas as informações essenciais do sistema. | 12h | Modelar o banco, criar tabelas e relacionamentos. | 1 |
-| Eu, enquanto usuário do sistema quero que seja possível extrair os relatórios de forma manual em formato PDF e CSV para trabalhar com os dados de outra maneira | O sistema deve disponibilizar a extração de relatórios em PDF e CSV, permitindo a seleção de filtros antes da geração do arquivo. | 8h | Criar funcionalidades de exportação e testar. | 1 |
-| Eu, enquanto administrador do sistema quero que tenha um guia de instalação e uso para o usuário para que o sistema possa ser utilizado por diversos usuários distintos | Deve existir um manual de instalação e um guia de uso detalhado, contendo instruções passo a passo. | 6h | Elaborar documentação de instalação e uso. | 1 |
-| Eu, enquanto usuário do sistema, quero que ao entrar no sistema tenha uma interface de login para que seja possível realizar o cadastro ou logar em minha conta de acordo com meus privilégios | O sistema deve permitir cadastro e login com validação. | 8h | Implementar autenticação e cadastro. | 2 |
-| Eu, enquanto usuário do sistema, quero que o sistema armazene as entradas e saídas dos funcionários para que seja possível computá-las | O sistema deve salvar horários registrados. | 6h | Criar funcionalidades de marcação e listagem. | 2 |
-| Eu, enquanto usuário do sistema, quero visualizar dados através de gráficos e de um dashboard para que tenha uma maneira interativa de visualizar os dados | O sistema deve apresentar dados através de gráficos interativos. | 12h | Desenvolver dashboard com gráficos. | 2 |
-| Eu, enquanto usuário do sistema, quero que seja possível a correção de pontos para que seja possível realizar a correção caso possua algum ponto errado ou com algo a ser modificado | Deve ser possível editar e listar registros de ponto com justificativa. | 7h | Criar funcionalidade de edição e validar permissões (data, empresa e CPF). | 3 |
-| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de um funcionário para excluir os dados | O sistema deve permitir que seja possível deletar os dados dos funcionários. | 2h | Criar funcionalidade de exclusão e validação de permissões (deleção lógica - inativo). | 3 |
-| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de uma empresa para excluir os dados | O sistema deve permitir que seja possível deletar os dados da empresa. | 2h | Criar funcionalidade de exclusão e validação de permissões (deleção lógica - inativo). | 3 |
-| Eu, enquanto usuário do sistema, quero que o campo de CPF utilize máscara de entrada para facilitar o preenchimento | O campo de CPF deve aceitar apenas entradas válidas e formatadas. | 2h | Aplicar máscara com validação e testar. | 3 |
-| Eu, enquanto usuário do sistema, quero que o campo de CNPJ utilize máscara de entrada para facilitar o preenchimento | O campo de CNPJ deve aceitar apenas entradas válidas e formatadas. | 2h | Aplicar máscara com validação e testar. | 3 |
-| Eu, enquanto usuário do sistema, quero que a foto fique maior no PDF gerado para melhor visualização | O sistema deve ajustar o tamanho da imagem no relatório em PDF. | 3h | Ajustar layout do PDF exportado e testar diferentes resoluções. | 3 |
-| Eu, enquanto desenvolvedor, quero implementar testes unitários no backend para garantir a integridade das funcionalidades | O sistema deve conter testes automatizados com cobertura de funções principais. | 6h | Criar testes para serviços e repositórios principais. | 3 |
-| Eu, enquanto desenvolvedor, quero utilizar o Supabase para autenticação e persistência de dados em nuvem | O sistema deve estar integrado ao Supabase e usar suas funcionalidades. | 10h | Integrar Supabase (auth, banco), configurar permissões e testar funcionalidades. | 3 |
-| Eu, enquanto usuário de sistema quero que seja possível extrair o relatório através de uma API para que seja possível utilizar em outros projetos | A API deve disponibilizar os relatórios em formatos estruturados. | 10h | Criar endpoints, formatar resposta e validar integração. | 3 |
+| Nº Requisito | Descrição                                  | Tipo                |
+|--------------|--------------------------------------------|---------------------|
+| RF1          | Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto | Funcional           |
+| RF2          | Desenvolver filtragem por data, empresa e profissional | Funcional           |
+| RF3          | Permitir extração de relatórios             | Funcional           |
+| RF4          | Dashboard com gráficos e possibilidade de filtragem | Funcional           |
+| RF5          | API para consumo dos dados (desejável)      | Funcional           |
+| RNF1         | Front minimalista                           | Não Funcional       |
+| RNF2         | Guia de instalação                          | Não Funcional       |
+| RNF3         | Documentação API                            | Não Funcional       |
+| RNF4         | Modelagem de Banco de Dados                 | Não Funcional       |
+
+</details>
+
+## :dart: Backlogs & User Stories
+
+<details>
+<summary>Backlog com User Stories e Estimativas</summary>
+
+<br>
+
+| User Story | Critério de Aceitação | Estimativa em horas | Sprint | Requisito Funcional Relacionado |
+|------------|----------------------|---------------------|--------|---------------------------------|
+| Eu, enquanto usuário do sistema, quero cadastrar as empresas e funcionários no sistema para que seja possível realizar o controle do projeto. | O sistema deve permitir o cadastro de empresas e funcionários com campos obrigatórios, garantindo a persistência das informações no banco de dados. | 10h | 1 | RF1 |
+| Eu, enquanto Administrador do sistema, quero que tenha um banco de dados que será onde será armazenado todas as informações do sistema. | Deve haver um banco de dados estruturado, seguro e otimizado para armazenar todas as informações essenciais do sistema. | 12h | 1 | RNF4 |
+| Eu, enquanto usuário do sistema, quero que seja possível extrair os relatórios de forma manual em formato PDF e CSV para trabalhar com os dados de outra maneira. | O sistema deve disponibilizar a extração de relatórios em PDF e CSV, permitindo a seleção de filtros antes da geração do arquivo. | 8h | 1 | RF3 |
+| Eu, enquanto administrador do sistema, quero que tenha um guia de instalação e uso para o usuário para que o sistema possa ser utilizado por diversos usuários distintos. | Deve existir um manual de instalação e um guia de uso detalhado, contendo instruções passo a passo. | 6h | 1 | RNF2 |
+| Eu, enquanto usuário do sistema, quero que ao entrar no sistema tenha uma interface de login para que seja possível realizar o cadastro ou logar em minha conta de acordo com meus privilégios. | O sistema deve permitir cadastro e login com validação. | 8h | 2 | RF1 |
+| Eu, enquanto usuário do sistema, quero que o sistema armazene as entradas e saídas dos funcionários para que seja possível computá-las. | O sistema deve salvar horários registrados. | 6h | 2 | RF2 |
+| Eu, enquanto usuário do sistema, quero visualizar dados através de gráficos e de um dashboard para que tenha uma maneira interativa de visualizar os dados. | O sistema deve apresentar dados através de gráficos interativos. | 12h | 2 | RF4 |
+| Eu, enquanto usuário do sistema, quero que seja possível a correção de pontos para que seja possível realizar a correção caso possua algum ponto errado ou com algo a ser modificado. | Deve ser possível editar e listar registros de ponto com justificativa. | 7h | 3 | RF2 |
+| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de um funcionário para excluir os dados. | O sistema deve permitir que seja possível deletar os dados dos funcionários. | 2h | 3 | RF1 |
+| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de uma empresa para excluir os dados. | O sistema deve permitir que seja possível deletar os dados da empresa. | 2h | 3 | RF1 |
+| Eu, enquanto usuário do sistema, quero que o campo de CPF utilize máscara de entrada para facilitar o preenchimento. | O campo de CPF deve aceitar apenas entradas válidas e formatadas. | 2h | 3 | RF1 |
+| Eu, enquanto usuário do sistema, quero que o campo de CNPJ utilize máscara de entrada para facilitar o preenchimento. | O campo de CNPJ deve aceitar apenas entradas válidas e formatadas. | 2h | 3 | RF1 |
+| Eu, enquanto usuário do sistema, quero que a foto fique maior no PDF gerado para melhor visualização. | O sistema deve ajustar o tamanho da imagem no relatório em PDF. | 3h | 3 | RF3 |
+| Eu, enquanto desenvolvedor, quero implementar testes unitários no backend para garantir a integridade das funcionalidades. | O sistema deve conter testes automatizados com cobertura de funções principais. | 6h | 3 | - |
+| Eu, enquanto desenvolvedor, quero utilizar o Supabase para autenticação e persistência de dados em nuvem. | O sistema deve estar integrado ao Supabase e usar suas funcionalidades. | 10h | 3 | - |
+| Eu, enquanto usuário do sistema, quero que seja possível extrair o relatório através de uma API para que seja possível utilizar em outros projetos. | A API deve disponibilizar os relatórios em formatos estruturados. | 10h | 3 | RF5 |
 
 </details>
 
