@@ -83,15 +83,15 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 Como parte do planejamento do projeto foram criados wireframes para idealização do layout, que, ao ser validado pelo cliente, foram aplicados em um protótipo construído no Figma, possibilitando a interação do usuário com a interface (vide [entrega da terceira sprint](#)).
 
 > 🔗 **Links gerais**  
-> - Documentação do software: [clique aqui para acessar](#)  
-> - Manual do usuário: [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual_Usuario_Registro_Ponto.pdf)  
-> - Links para os repositórios criados:  
+> - **Documentação do software:** [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Guia%20de%20Instalac%CC%A7a%CC%83o.pdf)  
+> - **Manual do usuário:** [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual%20do%20Usuario.pdf)  
+> - **Links para os repositórios criados:**  
 >    - **Frontend:** [acessar Denarius-Data-Frontend](https://github.com/DenariusData/DenariusData-Front/tree/main)  
 >    - **Backend:**  
 >       - **Código:** [acessar Denarius-Data-Backend](https://github.com/DenariusData/DenariusData-Back/tree/main)  
-> - Documentações das APIs:  
+> - **Documentações das APIs:**  
 >    - **Documentação Endpoint:** [acessar Swagger](#)  
->    - **Guia de Usuário:** [acessar Guia de usuário](#)
+>    - **Guia de Usuário:** [acessar Guia de usuário](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual%20do%20Usuario.pdf)
 
 → [Voltar ao topo](#topo)
 
