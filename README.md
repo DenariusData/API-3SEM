@@ -56,49 +56,22 @@ Para extrair e entender os desejos do cliente, foi construído um **protótipo i
 ---
 ### ✅ Este protótipo valida a entrega dos requisitos confirmados para a sprint, onde suas descrições podem ser checadas a seguir:
 
-- **RF 01: Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto**  
-Este requisito contempla a criação de uma interface intuitiva para o cadastro de empresas e seus respectivos profissionais, permitindo o envio de informações básicas e a inclusão de foto de perfil.  
-Essa funcionalidade é essencial para estruturar a base de dados do sistema Altime, possibilitando que cada empresa gerencie seus colaboradores de forma individualizada.  
-Foi implementada na Sprint 1 como uma das prioridades do MVP, com foco em usabilidade e funcionalidade. A interface será refinada nas próximas sprints para incluir melhorias visuais e validações adicionais conforme o feedback dos usuários.
+<details>
+<summary>🔽 Requisitos Confirmados para a Sprint</summary>
 
-- **RF 02: Desenvolver filtragem por data, empresa e profissional**  
-Este requisito visa permitir que os usuários realizem buscas específicas utilizando filtros por data, empresa e profissional.  
-Essa funcionalidade é fundamental para facilitar a navegação e o gerenciamento de registros dentro do sistema Altime, especialmente em cenários com grande volume de dados.  
-A implementação deste requisito permitirá aos gestores identificar rapidamente registros de ponto, eventos ou comportamentos específicos com base nos critérios selecionados.
+| Código   | Requisito                                           | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|----------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **RF 01** | Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto | Criação de interface intuitiva para cadastro de empresas e profissionais, com envio de informações básicas e foto de perfil. Essencial para estruturar a base do sistema Altime, permitindo gestão individualizada dos colaboradores. Implementado na Sprint 1 como prioridade do MVP, com foco em usabilidade e funcionalidade. Interface será refinada nas próximas sprints com melhorias visuais e validações conforme feedback dos usuários.                                                                 |
+| **RF 02** | Desenvolver filtragem por data, empresa e profissional | Permitir buscas específicas por data, empresa e profissional, facilitando navegação e gestão de registros em cenários com grande volume de dados. Ajuda gestores a identificar rapidamente registros de ponto e eventos com base em critérios selecionados.                                                                                                                                                                                                                                                   |
+| **RF 03** | Permitir a extração de relatórios                   | Funcionalidade para gerar relatórios em formatos como PDF e Excel, contendo dados sobre registros de ponto, presença e análises por período. Útil para auditoria, controle interno e prestação de contas. Relatórios gerados com filtros aplicados, tornando a ferramenta versátil e adaptável às necessidades das empresas.                                                                                                                                                                                      |
+| **RF 04** | Dashboard com gráficos e possibilidade de filtragem | Desenvolvimento de dashboards interativos com gráficos dinâmicos que mostram métricas como frequência de registros e média de horas trabalhadas. Dados podem ser filtrados por período, empresa ou colaborador para análise visual eficiente. Funcionalidade diferencial do Altime, oferecendo visão estratégica rápida para gestores.                                                                                                                                                                           |
+| **RF 05** | API para consumo dos dados (Desejável)              | API RESTful para integrar outras aplicações ao sistema Altime, permitindo consumo de dados de empresas, profissionais e registros de ponto. Facilita integrações com RH, ERPs e apps móveis. Não prioritário na Sprint 1, mas planejado para fases futuras com foco em escalabilidade e interoperabilidade.                                                                                                                                                                                                     |
+| **RNF 06** | Front-end com design minimalista                     | Interface limpa e moderna, seguindo design minimalista para experiência intuitiva e agradável. Prioriza simplicidade visual, usabilidade, com ícones claros, cores suaves e espaçamento adequado para navegação fluida, destacando funcionalidades principais sem excesso visual.                                                                                                                                                                                                                                |
+| **RNF 07** | Guia de instalação                                   | Guia detalhado para implantação do sistema em diferentes ambientes, incluindo dependências, configurações de banco, ambiente de execução e instruções para desenvolvedores e administradores. Objetiva reduzir curva de aprendizado e garantir instalação rápida e eficaz.                                                                                                                                                                                                                                   |
+| **RNF 08** | Documentação da API                                  | Documentação clara e completa da API RESTful, com descrição de endpoints, métodos HTTP, estruturas de requisição e resposta, e exemplos. Facilita integração com outras plataformas e desenvolvedores externos, seguindo padrões como OpenAPI (Swagger).                                                                                                                                                                                                                                                       |
+| **RNF 09** | Modelagem de Banco de Dados                          | Modelagem planejada para garantir integridade, consistência e escalabilidade dos dados. Estrutura relacional com entidades principais (empresas, profissionais, registros de ponto, usuários), usando chaves primárias e estrangeiras. Elaborada com boas práticas de normalização e performance, permitindo expansões e integrações seguras.                                                                                                                                                                |
 
-- **RF 03: Permitir a extração de relatórios**  
-A funcionalidade de exportação de relatórios tem como objetivo fornecer aos usuários a possibilidade de gerar documentos em formatos como PDF ou Excel, contendo dados relevantes sobre registros de ponto, presença de funcionários e análises por período.  
-Essa extração será útil para fins de auditoria, controle interno ou prestação de contas.  
-Os relatórios poderão ser gerados com base nos filtros aplicados, tornando a ferramenta ainda mais versátil e adaptável às necessidades das empresas.
-
-- **RF 04: Dashboard com gráficos e possibilidade de filtragem**  
-Este requisito se refere ao desenvolvimento de dashboards interativos, com gráficos dinâmicos que apresentam métricas relevantes como frequência de registros, média de horas trabalhadas, entre outros indicadores.  
-Os dados poderão ser filtrados por período, empresa ou colaborador, permitindo uma análise visual clara e eficiente do comportamento organizacional.  
-Essa funcionalidade é um dos diferenciais do Altime, pois oferece aos gestores uma visão estratégica e rápida sobre as operações da empresa.
-
-- **RF 05: API para consumo dos dados (Desejável)**  
-A criação de uma API RESTful está prevista como uma funcionalidade desejável, permitindo que outras aplicações ou serviços possam se integrar ao sistema Altime.  
-Através dessa API, será possível consumir dados de empresas, profissionais e registros de ponto, facilitando integrações com sistemas de RH, ERPs ou aplicações móveis.  
-Embora não seja uma prioridade da Sprint 1, a API está planejada para fases futuras de desenvolvimento, com foco em escalabilidade e interoperabilidade.
-
-- **RNF 06: Front-end com design minimalista**  
-O sistema Altime foi projetado com uma interface limpa e moderna, seguindo os princípios do design minimalista, a fim de oferecer uma experiência de uso intuitiva e agradável.  
-O foco está na simplicidade visual, sem comprometer a usabilidade. Ícones claros, cores suaves e espaçamento adequado foram aplicados para garantir que os usuários possam navegar pelo sistema de forma fluida, com destaque para as funcionalidades principais e sem excesso de elementos visuais.
-
-- **RNF 07: Guia de instalação**  
-Para facilitar o processo de implantação do sistema em diferentes ambientes, foi desenvolvido um guia de instalação detalhado.  
-Esse guia descreve passo a passo os procedimentos necessários para configurar o sistema Altime, incluindo dependências, configurações do banco de dados, ambiente de execução e instruções específicas para desenvolvedores e administradores.  
-O objetivo é reduzir a curva de aprendizado e garantir uma instalação rápida e eficaz.
-
-- **RNF 08: Documentação da API**  
-A documentação da API RESTful do sistema Altime está sendo elaborada para fornecer uma descrição clara e completa dos endpoints, métodos HTTP, estruturas de requisição e resposta, além de exemplos de uso.  
-Essa documentação é essencial para facilitar a integração com outras plataformas e sistemas de terceiros, permitindo que desenvolvedores externos possam consumir os dados do sistema com segurança e praticidade.  
-A documentação seguirá padrões reconhecidos, como OpenAPI (Swagger).
-
-- **RNF 09: Modelagem de Banco de Dados**  
-A modelagem do banco de dados foi cuidadosamente planejada para garantir a integridade, consistência e escalabilidade dos dados.  
-A estrutura relacional define as principais entidades do sistema, como empresas, profissionais, registros de ponto e usuários, com suas devidas chaves primárias e estrangeiras.  
-A modelagem foi elaborada com base em boas práticas de normalização e performance, possibilitando futuras expansões e integrações com segurança.
+</details>
 
 
 ➡️ [Voltar ao topo](#topo)
