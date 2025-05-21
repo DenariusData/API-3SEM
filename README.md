@@ -114,8 +114,7 @@ Como parte do planejamento do projeto foram criados wireframes para idealizaçã
 > - **Manual do usuário:** [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual%20do%20Usuario.pdf)  
 > - **Links para os repositórios criados:**  
 >    - **Frontend:** [acessar Denarius-Data-Frontend](https://github.com/DenariusData/DenariusData-Front/tree/main)  
->    - **Backend:**  
->       - **Código:** [acessar Denarius-Data-Backend](https://github.com/DenariusData/DenariusData-Back/tree/main)  
+>    - **Backend:**  [acessar Denarius-Data-Backend](https://github.com/DenariusData/DenariusData-Back/tree/main)  
 > - **Documentações das APIs:**  
 >    - **Documentação Endpoint:** [acessar Swagger](#)  
 >    - **Guia de Usuário:** [acessar Guia de usuário](https://github.com/DenariusData/DenariusData-docs/blob/main/Manual%20do%20Usuario.pdf)
@@ -128,14 +127,17 @@ Como parte do planejamento do projeto foram criados wireframes para idealizaçã
 
 As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
 
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxtdotjs&logoColor=fff" alt="NuxtJs" /> 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="Mysql" /><br>
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="Jira" /> 
-<img src="https://img.shields.io/badge/Google%20Docs-CED4DA?style=for-the-badge&logo=google-sheets&logoColor=0D96F6" alt="Google Docs" />
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=openjdk&logoColor=white)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<br>
+![VS_Code](https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual-studio-code&logoColor=0078D4)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Google_Docs](https://img.shields.io/badge/Google%20Docs-CED4DA?style=for-the-badge&logo=google-docs&logoColor=0D96F6)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
 
 → [Voltar ao topo](#topo)
 
