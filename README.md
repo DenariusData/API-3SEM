@@ -41,7 +41,7 @@ Para extrair e entender os desejos do cliente, foi construído um **protótipo i
 
 ### 📹 Veja abaixo o resultado final da entrega
 
-https://github.com/user-attachments/assets/0598242e-1f08-4ce1-af11-03a4dc492cc5
+https://github.com/user-attachments/assets/6d8405b4-17a0-418a-a09a-a775455fa371
 
 > Este protótipo valida a entrega dos requisitos confirmados para a sprint, onde suas descrições podem ser checadas a seguir
 
