@@ -30,7 +30,7 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 <details>
    <summary>Clique aqui para ver detalhes sobre o desenvolvimento deste requisito</summary>
     <br>
-   texto aqui
+   Este requisito contempla a criação de uma interface intuitiva para o cadastro de empresas e seus respectivos profissionais, permitindo o envio de informações básicas e a inclusão de foto de perfil. Essa funcionalidade é essencial para estruturar a base de dados do sistema Altime, possibilitando que cada empresa gerencie seus colaboradores de forma individualizada. Foi implementada na Sprint 1 como uma das prioridades do MVP, com foco em usabilidade e funcionalidade. A interface será refinada nas próximas sprints para incluir melhorias visuais e validações adicionais conforme o feedback dos usuários.
 <div align="center">
 <img src="gif aqui" alt="GIF demonstrativo">
 </div>
@@ -42,7 +42,7 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 <details>
    <summary>Clique aqui para ver detalhes sobre o desenvolvimento deste requisito</summary>
     <br>
-    Texto aqui
+    O sistema Altime foi projetado com uma interface limpa e moderna, seguindo os princípios do design minimalista, a fim de oferecer uma experiência de uso intuitiva e agradável. O foco está na simplicidade visual, sem comprometer a usabilidade. Ícones claros, cores suaves e espaçamento adequado foram aplicados para garantir que os usuários possam navegar pelo sistema de forma fluida, com destaque para as funcionalidades principais e sem excesso de elementos visuais.
   
 <div align="center">
 <img src="gif aqui" alt="GIF demonstrativo">
@@ -55,7 +55,8 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 <details>
    <summary>Clique aqui para ver detalhes sobre o desenvolvimento deste requisito</summary>
     <br>
-   texto aqui
+   Para facilitar o processo de implantação do sistema em diferentes ambientes, foi desenvolvido um guia de instalação detalhado. Esse guia descreve passo a passo os procedimentos necessários para configurar o sistema Altime, incluindo dependências, configurações do banco de dados, ambiente de execução e instruções específicas para desenvolvedores e administradores. O objetivo é reduzir a curva de aprendizado e garantir uma instalação rápida e eficaz.
+
 <br><br>
     
 > texto aqui
@@ -67,7 +68,7 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 <details>
    <summary>Clique aqui para ver detalhes sobre o desenvolvimento deste requisito</summary>
     <br>
-    texto aqui
+    A modelagem do banco de dados foi cuidadosamente planejada para garantir a integridade, consistência e escalabilidade dos dados. A estrutura relacional define as principais entidades do sistema, como empresas, profissionais, registros de ponto e usuários, com suas devidas chaves primárias e estrangeiras. A modelagem foi elaborada com base em boas práticas de normalização e performance, possibilitando futuras expansões e integrações com segurança.
 <div align="center">
 <img src="gif aqui" alt="GIF demonstrativo">
 </div>
