@@ -11,7 +11,6 @@
 <p align="center">
     <a href="#objetivos">🎯 Objetivos da sprint</a> &nbsp |&nbsp &nbsp
     <a href="#entregas">✅ Entregas</a> &nbsp |&nbsp &nbsp
-    <a href="#metricas">📈 Métricas do time</a> &nbsp |&nbsp &nbsp
     <a href="#links">🔗 Links úteis</a>
 </p>
 
@@ -83,29 +82,6 @@ https://github.com/user-attachments/assets/0598242e-1f08-4ce1-af11-03a4dc492cc5
 | **RNF 09** | Modelagem de Banco de Dados                          | Modelagem planejada para garantir integridade, consistência e escalabilidade dos dados. Estrutura relacional com entidades principais (empresas, profissionais, registros de ponto, usuários), usando chaves primárias e estrangeiras. Elaborada com boas práticas de normalização e performance, permitindo expansões e integrações seguras.                                                                                                                                                                |
 
 </details>
-
-</span>
-
-➡️ [Voltar ao topo](#topo)
-
----
-
-<span id="metricas">
-
-## 📈 Métricas do time
-
-Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: **frontend** e **backend**.  
-Na primeira sprint, o time de frontend ficou responsável pela confecção do protótipo, projeto frontend e integração de funcionalidades, enquanto o time de backend ficou responsável pela criação dos microsserviços necessários e pesquisas sobre o tema do desafio.
-
-O acompanhamento de atividades, de responsabilidade da **Scrum Master**, se encontra na imagem adiante, que contém o gráfico **Burndown** gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
-
-<div align="center">
-
-![Burndown Chart](foto do burndown)
-
-</div>
-
-➡️ [Voltar ao topo](#topo)
 
 ---
 
