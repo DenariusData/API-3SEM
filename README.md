@@ -11,6 +11,7 @@
 <p align="center">
     <a href="#objetivos">🎯 Objetivos da sprint</a> &nbsp |&nbsp &nbsp
     <a href="#entregas">✅ Entregas</a> &nbsp |&nbsp &nbsp
+    <a href="#modelagem">🗃️ Modelagem de Dados</a> &nbsp |&nbsp &nbsp
     <a href="#links">🔗 Links úteis</a>
 </p>
 
@@ -59,6 +60,15 @@ https://github.com/user-attachments/assets/0598242e-1f08-4ce1-af11-03a4dc492cc5
 
 ➡️ [Voltar ao topo](#topo)
 
+<span id="modelagem">
+
+## 🗃️ Modelagem de Dados
+
+> 📎 **A modelagem do banco de dados foi elaborada com base nas relações entre empresas, contratos, cargos, funcionários e registros de ponto.**
+
+![Diagrama_page-0001](https://github.com/user-attachments/assets/826eaea9-17ee-4fbb-a6dd-4727d5c42118)
+
+➡️ [Voltar ao topo](#topo)
 
 <span id="links">
 
