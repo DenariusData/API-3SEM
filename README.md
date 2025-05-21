@@ -107,7 +107,7 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 ## :desktop_computer: Protótipo & Documentação
 
-Como parte do planejamento do projeto foram criados wireframes para idealização do layout, que, ao ser validado pelo cliente, foram aplicados em um protótipo construído no Figma, possibilitando a interação do usuário com a interface (vide [entrega da terceira sprint](#)).
+Como parte do planejamento do projeto foram criados wireframes para idealização do layout, que, ao ser validado pelo cliente, foram aplicados em um protótipo construído no Figma, possibilitando a interação do usuário com a interface.
 
 > 🔗 **Links gerais**  
 > - **Documentação do software:** [clique aqui para acessar](https://github.com/DenariusData/DenariusData-docs/blob/main/Guia%20de%20Instalac%CC%A7a%CC%83o.pdf)  
