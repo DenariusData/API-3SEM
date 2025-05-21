@@ -74,24 +74,30 @@ Confira a seguir uma demonstração das funcionalidades para cada tipo de usuár
 
 <br>
 
-| User Story | Critério de Aceitação | Estimativa em horas | Sprint | Requisito Funcional Relacionado |
-|------------|----------------------|---------------------|--------|---------------------------------|
-| Eu, enquanto usuário do sistema, quero cadastrar as empresas e funcionários no sistema para que seja possível realizar o controle do projeto. | O sistema deve permitir o cadastro de empresas e funcionários com campos obrigatórios, garantindo a persistência das informações no banco de dados. | 10h | 1 | RF1 |
-| Eu, enquanto Administrador do sistema, quero que tenha um banco de dados que será onde será armazenado todas as informações do sistema. | Deve haver um banco de dados estruturado, seguro e otimizado para armazenar todas as informações essenciais do sistema. | 12h | 1 | RNF4 |
-| Eu, enquanto usuário do sistema, quero que seja possível extrair os relatórios de forma manual em formato PDF e CSV para trabalhar com os dados de outra maneira. | O sistema deve disponibilizar a extração de relatórios em PDF e CSV, permitindo a seleção de filtros antes da geração do arquivo. | 8h | 1 | RF3 |
-| Eu, enquanto administrador do sistema, quero que tenha um guia de instalação e uso para o usuário para que o sistema possa ser utilizado por diversos usuários distintos. | Deve existir um manual de instalação e um guia de uso detalhado, contendo instruções passo a passo. | 6h | 1 | RNF2 |
-| Eu, enquanto usuário do sistema, quero que ao entrar no sistema tenha uma interface de login para que seja possível realizar o cadastro ou logar em minha conta de acordo com meus privilégios. | O sistema deve permitir cadastro e login com validação. | 8h | 2 | RF1 |
-| Eu, enquanto usuário do sistema, quero que o sistema armazene as entradas e saídas dos funcionários para que seja possível computá-las. | O sistema deve salvar horários registrados. | 6h | 2 | RF2 |
-| Eu, enquanto usuário do sistema, quero visualizar dados através de gráficos e de um dashboard para que tenha uma maneira interativa de visualizar os dados. | O sistema deve apresentar dados através de gráficos interativos. | 12h | 2 | RF4 |
-| Eu, enquanto usuário do sistema, quero que seja possível a correção de pontos para que seja possível realizar a correção caso possua algum ponto errado ou com algo a ser modificado. | Deve ser possível editar e listar registros de ponto com justificativa. | 7h | 3 | RF2 |
-| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de um funcionário para excluir os dados. | O sistema deve permitir que seja possível deletar os dados dos funcionários. | 2h | 3 | RF1 |
-| Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de uma empresa para excluir os dados. | O sistema deve permitir que seja possível deletar os dados da empresa. | 2h | 3 | RF1 |
-| Eu, enquanto usuário do sistema, quero que o campo de CPF utilize máscara de entrada para facilitar o preenchimento. | O campo de CPF deve aceitar apenas entradas válidas e formatadas. | 2h | 3 | RF1 |
-| Eu, enquanto usuário do sistema, quero que o campo de CNPJ utilize máscara de entrada para facilitar o preenchimento. | O campo de CNPJ deve aceitar apenas entradas válidas e formatadas. | 2h | 3 | RF1 |
-| Eu, enquanto usuário do sistema, quero que a foto fique maior no PDF gerado para melhor visualização. | O sistema deve ajustar o tamanho da imagem no relatório em PDF. | 3h | 3 | RF3 |
-| Eu, enquanto desenvolvedor, quero implementar testes unitários no backend para garantir a integridade das funcionalidades. | O sistema deve conter testes automatizados com cobertura de funções principais. | 6h | 3 | - |
-| Eu, enquanto desenvolvedor, quero utilizar o Supabase para autenticação e persistência de dados em nuvem. | O sistema deve estar integrado ao Supabase e usar suas funcionalidades. | 10h | 3 | - |
-| Eu, enquanto usuário do sistema, quero que seja possível extrair o relatório através de uma API para que seja possível utilizar em outros projetos. | A API deve disponibilizar os relatórios em formatos estruturados. | 10h | 3 | RF5 |
+| Rank | Requisito Funcional | User Story | Estimativa | Sprint | Critério de Aceitação |
+|-------|---------------------|------------|------------|--------|----------------------|
+| 1  | RF1                 | Eu, enquanto usuário do sistema quero cadastrar as empresas e funcionários no sistema para que seja possível realizar o controle do projeto | 10h | 1 | O sistema deve permitir o cadastro de empresas e funcionários com campos obrigatórios, garantindo a persistência das informações no banco de dados. |
+| 2  | RNF4                | Eu, enquanto Administrador do sistema quero que tenha um banco de dados que será aonde irá ser armazenado todas as informações do sistema | 12h | 1 | Deve haver um banco de dados estruturado, seguro e otimizado para armazenar todas as informações essenciais do sistema. |
+| 3  | RF3                 | Eu, enquanto usuário do sistema quero que seja possível extrair os relatórios de forma manual em formato pdf e csv para trabalhar com os dados de outra maneira | 8h | 1 | O sistema deve disponibilizar a extração de relatórios em PDF e CSV, permitindo a seleção de filtros antes da geração do arquivo. |
+| 4  | RNF2, RNF3          | Eu, enquanto administrador do sistema quero que tenha um guia de instalação e uso para o usuário para que o sistema possa ser utilizado por diversos usuários distintos | 6h | 1 | Deve existir um manual de instalação e um guia de uso detalhado, contendo instruções passo a passo. |
+| 5  | RNF1                | Eu, enquanto usuário do sistema, quero que ao entrar no sistema tenha uma interface de login para que seja possível realizar o cadastro ou logar em minha conta de acordo com meus privilégios | 8h | 2 | O sistema deve permitir cadastro e login com validação. |
+| 6  | RNF1                | Eu, enquanto usuário do sistema, quero que o sistema armazene as entradas e saídas dos funcionários para que seja possível computá-las | 6h | 2 | O sistema deve salvar horários registrados. |
+| 7  | RNF1                | Eu, enquanto usuário do sistema, quero que seja possível a correção de pontos para que seja possível realizar a correção caso possua algum ponto errado ou com algo a ser modificado | 7h | 2 | Deve ser possível editar registros de ponto com justificativa. |
+| 8  | RF2                 | Eu, enquanto usuário do sistema, quero visualizar dados através de gráficos e de um dashboard para que tenha uma maneira interativa de visualizar os dados | 12h | 2 | O sistema deve apresentar dados através de gráficos interativos. |
+| 9  | RNF1                | Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de um funcionário para excluir os dados | 6h | 2 | O sistema deve permitir que seja possível deletar os dados dos funcionários. |
+| 10 | RNF1                | Eu, enquanto usuário do sistema, quero que seja possível deletar informações já cadastradas de uma empresa para excluir os dados | 6h | 2 | O sistema deve permitir que seja possível deletar os dados da empresa. |
+| 11 | RF4                 | Eu, enquanto usuário do sistema, quero que seja possível alterar informações já cadastradas de um funcionário para que possa corrigir os dados incorretos | 6h | 2 | O sistema deve permitir a edição de dados dos funcionários. |
+| 12 | RF5                 | Eu, enquanto usuário do sistema, quero que seja possível alterar dados de uma empresa já cadastrada para manter as informações atualizadas | 5h | 2 | O sistema deve permitir a edição dos dados das empresas. |
+| 13 | RF1, RNF1           | Eu, enquanto usuário do sistema, quero que o campo de CPF utilize máscara de entrada para facilitar o preenchimento | 2h | 2 | O campo de CPF deve aceitar apenas entradas válidas e formatadas. |
+| 14 | RF1, RNF1           | Eu, enquanto usuário do sistema, quero que o campo de CNPJ utilize máscara de entrada para facilitar o preenchimento | 2h | 2 | O campo de CNPJ deve aceitar apenas entradas válidas e formatadas. |
+| 15 | RNF1                | Eu, enquanto usuário do sistema, quero que as listas tenham paginação para facilitar a navegação entre muitos registros | 4h | 2 | O sistema deve dividir os dados em páginas com navegação. |
+| 16 | RNF3, RNF1          | Eu, enquanto usuário do sistema, quero que a foto fique maior no PDF gerado para melhor visualização | 3h | 2 | O sistema deve ajustar o tamanho da imagem no relatório em PDF. |
+| 17 | RNF1                | Eu, enquanto desenvolvedor, quero utilizar Lombok no backend para reduzir a escrita de código repetitivo | 2h | 2 | O projeto backend deve utilizar Lombok para geração de código boilerplate. |
+| 18 | RNF1                | Eu, enquanto desenvolvedor, quero implementar testes unitários no backend para garantir a integridade das funcionalidades | 6h | 2 | O sistema deve conter testes automatizados com cobertura de funções principais. |
+| 19 | RNF4                | Eu, enquanto desenvolvedor, quero utilizar o Supabase para autenticação e persistência de dados em nuvem | 10h | 2 | O sistema deve estar integrado ao Supabase e usar suas funcionalidades. |
+| 20 | RF5                 | Eu, enquanto usuário de sistema quero que seja possível extrair o relatório através de uma API para que seja possível utilizar em outros projetos | 10h | 3 | Criar endpoints, formatar resposta e validar integração. |
+
+</details>
 
 </details>
 
