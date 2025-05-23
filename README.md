@@ -38,10 +38,6 @@ Além disso, a equipe continuou evoluindo a interface do dashboard, tornando-a a
 
 Durante a 3ª Sprint, o protótipo visual previamente aprovado continuou servindo como referência para o desenvolvimento das novas funcionalidades. Com base na identidade visual já estabelecida no Figma, foram implementadas melhorias no sistema de relatórios, filtros avançados, otimização do backend e ajustes na responsividade do dashboard, mantendo a consistência visual e a usabilidade.
 
-### 📹 Veja abaixo o resultado final da entrega
-
-https://github.com/user-attachments/assets/cd7c1e07-758d-4f80-8358-d3b2fc26554f
-
 > Este protótipo valida a entrega dos requisitos confirmados para a sprint, onde suas descrições podem ser checadas a seguir
 
 <span id="requisitos">
@@ -99,13 +95,4 @@ npm run dev
 
 ## 🔗 Links Importantes
 
-- 🎥 [Demonstração em vídeo do sistema](https://www.youtube.com/watch?v=SEU_VIDEO)
-- 🧠 [Repositório GitHub do produto](https://github.com/User-Business/API-3SEM)
-- 📑 [Documentação da API (Swagger)](http://localhost:8080/swagger-ui.html) — substituir pelo link real
-
----
-
-## 📝 Documentação da Sprint
-
-- 📄 [Página Sprint 01](docs/sprint01.md)
-- 📌 [Product Backlog](docs/backlog.md)
+- 🧠 [Repositório GitHub do produto](https://github.com/DenariusData/API-3SEM)
