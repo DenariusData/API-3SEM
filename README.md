@@ -29,7 +29,7 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 |--------|------------|----------------|---------------------------------------------------------------------------|
 | 01     | 30/03/2025 | ✔️ Concluída    | [ver relatório](https://github.com/DenariusData/API-3SEM/tree/Sprint-1)   |
 | 02     | 27/04/2025 | ✔️ Concluída    | [ver relatório](https://github.com/DenariusData/API-3SEM/tree/Sprint-2)   |
-| 03     | 25/05/2025 | ⏱️ Em Andamento | [ver relatório](https://github.com/DenariusData/API-3SEM/tree/Sprint-3)   |
+| 03     | 25/05/2025 | ✔️ Concluída    | [ver relatório](https://github.com/DenariusData/API-3SEM/tree/Sprint-3)   |
 
 ### :clapper: Apresentação Final
 
