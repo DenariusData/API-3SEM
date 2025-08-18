@@ -19,7 +19,7 @@ Conta com um dashboard interativo, que oferece uma visão detalhada de todas as 
 
 > _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
 
-:pushpin: **Status do Projeto:** Em Andamento ⏱️
+:pushpin: **Status do Projeto:** Finalizado ✅
 
 ### 🏁 Entregas de Sprints
 
